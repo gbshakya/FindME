@@ -6,4 +6,5 @@ class User(AbstractUser):
     is_employer = models.BooleanField('employer_status', default=False)
     is_employee = models.BooleanField('employee_status', default=False)
     is_admin = models.BooleanField('admin_status', default=False)
+    test_field = models.BooleanField('test', default=False)
     
